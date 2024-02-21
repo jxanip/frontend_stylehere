@@ -1,0 +1,19 @@
+.collapse a{
+ padding: 10px;
+  text-decoration: none;
+}
+.logo{
+  width: 60px;
+}
+.collapse img{
+  margin-left: 50px;
+}
+@media screen and (max-width: 764px){
+  .collapse li{
+    text-align: left;
+    padding: 0px;
+  }
+  .collapse img{
+    margin-left: 0px;
+  }
+}

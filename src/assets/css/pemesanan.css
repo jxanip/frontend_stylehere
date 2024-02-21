@@ -1,0 +1,47 @@
+.pemesanan {
+  color: white;
+}
+
+.pemesanan {
+   height: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.pemesanan-txt {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.nama, .alamat, .nohp {
+   width: 100px;
+  color: #eccbac;
+   margin: 5px;
+}
+
+.pesankan{
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #eccbac;
+  border-radius: 5px;
+  padding: 10px 30px;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+  background: none;
+  margin-top: 15px;
+}
+
+.pesankan:hover {
+  color: #eccbac;
+}

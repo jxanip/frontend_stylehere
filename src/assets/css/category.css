@@ -1,0 +1,38 @@
+.category-container{
+  margin-top: 200px;
+  padding: 0 6rem;
+}
+.category-content{
+  display: flex;
+  margin-top: -60px;
+}
+.category-caption h1{
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 30px;
+}
+
+.category-caption p {
+  color: white;
+  text-align: justify;
+  padding: 0 10rem 0 0;
+}
+
+.category-btnimg-container {
+  display: flex;
+}
+
+.category-btnimg1 {
+
+}
+
+.category-btnimg1 img {
+  width: 150px;
+  margin: 10px 0;
+}
+
+.category-btnimg2 img {
+  width: 487px;
+  margin-left: 15px;
+  margin-top: 10px;
+}

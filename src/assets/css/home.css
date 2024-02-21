@@ -1,0 +1,218 @@
+.body {
+  display: flex;
+}
+
+.welcome {
+  width: 100%;
+  background-image: url('../img/STHHOME.png');
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+
+.welcome::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(1, 1, 3, 1) 5%,
+    rgba(255, 255, 255, 0) 75%
+  );
+  z-index: -1;
+}
+
+.w-text{
+  color: white;
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+  font-family: "Roboto Mono", monospace;
+}
+.w-text h1{
+  font-size: 5pc;
+  color: #fff;
+  text-shadow: 1px 1px 3px black;
+}
+.w-text p{
+   text-shadow: 1px 1px 3px black;
+  margin-left: -18pc;
+}
+.w-text span{
+  color: #eccbac;
+  font-family: 'Poppins', sans-serif;
+}
+.button-p{
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+/* about */
+
+.about{
+  margin-top: 5pc;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.about img{
+  margin-top: -35px;
+  width: 30pc;
+  border-radius: 10px;
+}
+.about .a-text{
+  margin: 3rem 10%;
+  margin-top: -35px;
+  padding: 1.4rem 8%;
+  border: 1px solid #eccbac;
+  border-radius: 15px;
+  
+}
+
+/* produk rekomendasi */
+.p-rekomendasi {
+ color: white;
+  display: block;
+  text-align: center;
+  margin-top: 70px;
+}
+.card-container{
+  margin-top: 100px;
+  margin-bottom: 6rem;
+}
+.card-produk-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem;
+}
+.card-produk-2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem;
+  margin-top: 50px;
+}
+.c-r{
+  position: relative;
+  border: 1px solid #eccbac;
+  width: 280px;
+  height: 320px;
+  border-radius: 15px;
+  transition: 0.5s;
+  display: inline-block;
+}
+.c-r:hover{
+  content: "";
+  cursor: pointer;
+  box-shadow: 1px 2px 1px 2px white;
+  overflow: hidden;
+}
+.c-r img {
+  border: 1px solid #eccbac;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+button{
+  color: #fff;
+  background-color: #2f3d7e;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+}
+
+.b-produk{
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  color: white;
+  background: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #eccbac;
+  border-radius: 5px;
+  padding: 10px 30px;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.b-produk:hover {
+  color: #eccbac;
+}
+
+.t-dikit{
+  color: #e3e3e3;
+  max-width: 60rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.button-single{
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  color: white;
+  background: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #eccbac;
+  border-radius: 5px;
+  padding: 10px 30px;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.button-single:hover {
+  color: #eccbac;
+}
+
+.wkwk{
+  padding: 0px 0px 0px 160px;
+}
+
+.buttonhv{
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #eccbac;
+  border-radius: 5px;
+  padding: 10px 30px;
+  z-index: 1;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.buttonhv:hover {
+  color: #eccbac;
+}
+
+.posisi-cart {
+  padding: right;
+}
+
+.navbar-navigasi a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+.navbar-navigasi a:hover::after {
+  transform: scaleX(0.5);
+}
+

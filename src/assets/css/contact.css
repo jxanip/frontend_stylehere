@@ -1,0 +1,38 @@
+.contact-container{
+  padding: 0 7rem;
+  
+}
+.judul img{
+  margin-top: 110px;
+  margin-bottom: 100px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 65pc;
+}
+.judul h1{
+  color: white;
+  margin-top: -80px;
+  font-family: 'Bebas Neue', serif;
+  font-size: 70px;
+  letter-spacing: 20px;
+}
+.judul h4{
+  color: white;
+  
+}
+.judul h1 span{
+  color: #eccbac;
+  display: flex;
+}
+.e {
+ display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.style {
+  color: white;
+}
+.contact {
+  color: white;
+}

@@ -1,0 +1,9 @@
+.footer{
+  padding: .5rem 1rem;
+  background: linear-gradient(to bottom, black, #eccbac);
+  margin-top: 20px;
+}
+.f h3, p {
+  text-align: center;
+  color: white;
+}
